@@ -1,0 +1,7 @@
+id = "ecto_cooler"
+name = "Ecto Cooler"
+version = "1.0.0"
+schema_version = 1
+authors = ["Owais Jamil"]
+description = "Ecto Cooler theme for Zed, using a palette that blends Gruvbox with Catppuccin."
+repository = "https://github.com/desertthunder/ecto-cooler-zed"
