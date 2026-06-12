@@ -10,6 +10,12 @@ The theme keeps Gruvbox's warm, earthy readability while using Catppuccin **sapp
 as the primary UI accent. The rest of the Catppuccin pastels are used for syntax contrast,
 diagnostics, terminal colors, and editor chrome.
 
+## Screenshots
+
+| Dark                                       | Light                                      |
+| ------------------------------------------ | ------------------------------------------ |
+| ![Dark Theme](./screenshots/dark-rust.png) | ![Light Theme](./screenshots/light-js.png) |
+
 ## Usage
 
 In Zed, install this directory as a development extension:
@@ -25,73 +31,31 @@ This palette blends the color palettes of the Catppuccin & Gruvbox vim themes.
 
 ### Generated Ecto Cooler palettes
 
-#### Dark: Gruvbox dark + Mocha
-
-| Token          | Hex       |
-| -------------- | --------- |
-| `bg`           | `#24242b` |
-| `bg_alt`       | `#26252a` |
-| `bg_float`     | `#36353e` |
-| `bg_sidebar`   | `#181a1f` |
-| `bg_visual`    | `#58656a` |
-| `bg_search`    | `#f9d686` |
-| `bg_incsearch` | `#fba66a` |
-| `bg_selection` | `#696f6f` |
-| `fg`           | `#e0d9cb` |
-| `fg_alt`       | `#c9c3bd` |
-| `fg_muted`     | `#928e91` |
-| `fg_subtle`    | `#7c787e` |
-| `red`          | `#f57e91` |
-| `maroon`       | `#ef8d92` |
-| `orange`       | `#fba76d` |
-| `yellow`       | `#f9d88b` |
-| `green`        | `#aada86` |
-| `aqua`         | `#93dbc1` |
-| `sky`          | `#8ad7d7` |
-| `sapphire`     | `#76c2e0` |
-| `blue`         | `#88b1e6` |
-| `purple`       | `#cca0e6` |
-| `pink`         | `#eeb6d8` |
-| `rosewater`    | `#edd9ce` |
-| `flamingo`     | `#ebcbc2` |
-| `lavender`     | `#aab9ea` |
-
-#### Light: Gruvbox light + Latte
-
-| Token          | Hex       |
-| -------------- | --------- |
-| `bg`           | `#f5f1dc` |
-| `bg_alt`       | `#ede7d1` |
-| `bg_float`     | `#e9e2d1` |
-| `bg_sidebar`   | `#ededde` |
-| `bg_visual`    | `#c7c2b9` |
-| `bg_search`    | `#ce8419` |
-| `bg_incsearch` | `#e35608` |
-| `bg_selection` | `#b4afab` |
-| `fg`           | `#414047` |
-| `fg_alt`       | `#555259` |
-| `fg_muted`     | `#847e81` |
-| `fg_subtle`    | `#979293` |
-| `red`          | `#c50b2d` |
-| `maroon`       | `#d3333f` |
-| `orange`       | `#e85809` |
-| `yellow`       | `#d0851a` |
-| `green`        | `#509423` |
-| `aqua`         | `#228c88` |
-| `sky`          | `#109dc9` |
-| `sapphire`     | `#1c96ab` |
-| `blue`         | `#1966da` |
-| `purple`       | `#8a3ad3` |
-| `pink`         | `#d66ab7` |
-| `rosewater`    | `#b5786a` |
-| `flamingo`     | `#b66b6a` |
-| `lavender`     | `#5a80e0` |
-
-## Project
-
-```text
-.
-├─ extension.toml
-└─ themes/
-   └── ecto-cooler.json
-```
+| Token          | Gruvbox Dark + Mocha | Gruvbox Light + Latte |
+| -------------- | -------------------- | --------------------- |
+| `bg`           | `#24242b`            | `#f5f1dc`             |
+| `bg_alt`       | `#26252a`            | `#ede7d1`             |
+| `bg_float`     | `#36353e`            | `#e9e2d1`             |
+| `bg_sidebar`   | `#181a1f`            | `#ededde`             |
+| `bg_visual`    | `#58656a`            | `#c7c2b9`             |
+| `bg_search`    | `#f9d686`            | `#ce8419`             |
+| `bg_incsearch` | `#fba66a`            | `#e35608`             |
+| `bg_selection` | `#696f6f`            | `#b4afab`             |
+| `fg`           | `#e0d9cb`            | `#414047`             |
+| `fg_alt`       | `#c9c3bd`            | `#555259`             |
+| `fg_muted`     | `#928e91`            | `#847e81`             |
+| `fg_subtle`    | `#7c787e`            | `#979293`             |
+| `red`          | `#f57e91`            | `#c50b2d`             |
+| `maroon`       | `#ef8d92`            | `#d3333f`             |
+| `orange`       | `#fba76d`            | `#e85809`             |
+| `yellow`       | `#f9d88b`            | `#d0851a`             |
+| `green`        | `#aada86`            | `#509423`             |
+| `aqua`         | `#93dbc1`            | `#228c88`             |
+| `sky`          | `#8ad7d7`            | `#109dc9`             |
+| `sapphire`     | `#76c2e0`            | `#1c96ab`             |
+| `blue`         | `#88b1e6`            | `#1966da`             |
+| `purple`       | `#cca0e6`            | `#8a3ad3`             |
+| `pink`         | `#eeb6d8`            | `#d66ab7`             |
+| `rosewater`    | `#edd9ce`            | `#b5786a`             |
+| `flamingo`     | `#ebcbc2`            | `#b66b6a`             |
+| `lavender`     | `#aab9ea`            | `#5a80e0`             |
